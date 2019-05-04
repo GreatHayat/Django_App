@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="containe-fluid">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">WebSiteName</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'about' %}">About Us</a></li>
+                <li><a href="{% url 'contact' %}">Contact Us</a></li>
+                
+              </ul>
+            </div>
+          </nav>
+    </div>
+
+    <div class="container">
+        <div style="width: 500px;">
+            <img src="{% static 'images/photo.jpeg' %}" style="width:100%;" class="img-responsiv">
+        </div>
+        <h2 class="text-primary">
+            About Us
+        </h2>
+        <p>Lorem ipsum dolor sit amet, c Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum incidunt in architecto exercitationem nemo doloremque, repellendus accusantium dignissimos molestias officia quasi eaque impedit pariatur voluptas soluta a commodi aperiam aliquid blanditiis itaque, ratione reprehenderit, deserunt fugiat voluptate. Dicta cumque velit ratione fugit illum sunt ipsum voluptate! Autem voluptates totam suscipit amet. Iusto ullam tempore non impedit quo, nihil deserunt. Possimus voluptas nobis dolore quae incidunt quod dignissimos quisquam labore? In nam magnam deserunt beatae corrupti libero architecto, quidem qui modi unde? Eum iure provident libero, voluptate blanditiis voluptatibus 
+            voluptatem veritatis rem consequuntur quae dolorem nemo ipsam asperiores explicabo similique in.
+            onsectetur adipisicing elit. Sit voluptatum culpa, ipsam debitis dolor tempore consectetur quod. Dignissimos iusto eum voluptates quas beatae facere similique alias asperiores veritatis voluptatum numquam, debitis ipsa unde sint tempora ipsam. Laboriosam, quisquam omnis et tempora commodi corrupti, dicta impedit error alias tenetur molestias, quasi dolorum facilis distinctio hic ducimus. Debitis ratione id eos soluta magni rerum minus quaerat recusandae! Voluptas incidunt adipisci cum nam debitis ipsam temporibus rem culpa perspiciatis id, laboriosam molestias voluptatum. Iure illum ipsa quasi quod quia nisi doloremque praesentium reiciendis ab animi velit eaque, quas non, quidem debitis, minima laudantium accusamus perferendis perspiciatis consectetur ut vitae voluptatum. Laborum provident, harum, dolore quae repellendus ipsam at minus commodi ut eum expedita in molestias dolorum porro consequuntur rem consequatur sunt fugiat deserunt, voluptatum error adipisci pariatur. Aliquid fugiat error perspiciatis, pariatur ex architecto sunt atque consequatur nihil similique possimus hic reprehenderit odit distinctio libero aspernatur dolor ipsa in nam. Provident doloribus porro corporis omnis maiores minima id, dignissimos odit, sapiente ut cumque vel accusantium perspiciatis inventore magni non blanditiis vero incidunt nesciunt ad doloremque voluptates beatae possimus odio. Quisquam fugit 
+            nulla, unde porro, reiciendis vitae nam voluptas harum ab, eveniet animi nostrum.</p>
+    </div>
+
+          
+
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+</body>
+</html>
